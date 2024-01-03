@@ -10,7 +10,9 @@ import { Hero,
 const App = () => {
   return (
     <main className='relative'>
-      <Nav/>
+      <section className='z-10'>
+        <Nav/>
+      </section>
       <section className='xl:padding-l wide:padding-r padding-b'>
         <Hero/>
       </section>
